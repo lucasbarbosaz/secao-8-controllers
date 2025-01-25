@@ -10,7 +10,7 @@ class UserController extends Controller
         dd('x');
     }
 
-    public function show($id) {
-        dd("show", $id);
+    public function show(Request $request, $user) {
+        dd("show", $user);
     }
 }
