@@ -9,4 +9,8 @@ class UserController extends Controller
     public function index() {
         dd('x');
     }
+
+    public function show($id) {
+        dd("show", $id);
+    }
 }
